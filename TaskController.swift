@@ -32,17 +32,20 @@ class TaskController {
     }
     
     func addTask(task: Task) {
+        saveToPersistentStorage()
         
     }
     func removeTask(task: Task) {
-        
-        
+        task.managedObjectContext?.deleteObject(task)
+        saveToPersistentStorage()
     }
     
     func saveToPersistentStorage() {
+        do {
+            try Stack.sharedStack.managedObjectContext.save()
+        } catch {
+            print("That sucks")
+        }
         
     }
-    
-    
-    
 }
