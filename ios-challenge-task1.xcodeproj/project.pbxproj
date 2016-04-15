@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E56986B51CC183B9006B8C5B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E56986B31CC183B9006B8C5B /* Model.xcdatamodeld */; };
-		E56986B81CC1847B006B8C5B /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56986B61CC1847B006B8C5B /* Entity+CoreDataProperties.swift */; };
-		E56986B91CC1847B006B8C5B /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56986B71CC1847B006B8C5B /* Entity.swift */; };
+		E56986BB1CC184E0006B8C5B /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56986BA1CC184E0006B8C5B /* Stack.swift */; };
+		E56986BE1CC1857C006B8C5B /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56986BC1CC1857C006B8C5B /* Entity+CoreDataProperties.swift */; };
+		E56986BF1CC1857C006B8C5B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56986BD1CC1857C006B8C5B /* Task.swift */; };
 		E5E2695F1CC178B400BD782B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2695E1CC178B400BD782B /* AppDelegate.swift */; };
 		E5E269641CC178B400BD782B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E269621CC178B400BD782B /* Main.storyboard */; };
 		E5E269691CC178B400BD782B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E269671CC178B400BD782B /* LaunchScreen.storyboard */; };
@@ -20,8 +21,9 @@
 
 /* Begin PBXFileReference section */
 		E56986B41CC183B9006B8C5B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		E56986B61CC1847B006B8C5B /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E56986B71CC1847B006B8C5B /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		E56986BA1CC184E0006B8C5B /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		E56986BC1CC1857C006B8C5B /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E56986BD1CC1857C006B8C5B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E5E2695B1CC178B400BD782B /* ios-challenge-task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-challenge-task1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E2695E1CC178B400BD782B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E269631CC178B400BD782B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,8 +48,9 @@
 		E5E269521CC178B400BD782B = {
 			isa = PBXGroup;
 			children = (
-				E56986B61CC1847B006B8C5B /* Entity+CoreDataProperties.swift */,
-				E56986B71CC1847B006B8C5B /* Entity.swift */,
+				E56986BC1CC1857C006B8C5B /* Entity+CoreDataProperties.swift */,
+				E56986BD1CC1857C006B8C5B /* Task.swift */,
+				E56986BA1CC184E0006B8C5B /* Stack.swift */,
 				E5E2695D1CC178B400BD782B /* ios-challenge-task1 */,
 				E5E2695C1CC178B400BD782B /* Products */,
 			);
@@ -147,9 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E56986B81CC1847B006B8C5B /* Entity+CoreDataProperties.swift in Sources */,
+				E56986BE1CC1857C006B8C5B /* Entity+CoreDataProperties.swift in Sources */,
 				E5E269711CC17AD500BD782B /* TaskListTableViewController.swift in Sources */,
-				E56986B91CC1847B006B8C5B /* Entity.swift in Sources */,
+				E56986BF1CC1857C006B8C5B /* Task.swift in Sources */,
+				E56986BB1CC184E0006B8C5B /* Stack.swift in Sources */,
 				E5E269731CC17AE800BD782B /* DetailTaskTableViewController.swift in Sources */,
 				E5E2695F1CC178B400BD782B /* AppDelegate.swift in Sources */,
 				E56986B51CC183B9006B8C5B /* Model.xcdatamodeld in Sources */,
