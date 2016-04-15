@@ -12,6 +12,7 @@
 		E56986C81CC18AC7006B8C5B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E56986C61CC18AC7006B8C5B /* Model.xcdatamodeld */; };
 		E56986CB1CC18AF0006B8C5B /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56986C91CC18AF0006B8C5B /* Task+CoreDataProperties.swift */; };
 		E56986CC1CC18AF0006B8C5B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56986CA1CC18AF0006B8C5B /* Task.swift */; };
+		E56986CE1CC18E8E006B8C5B /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56986CD1CC18E8E006B8C5B /* ButtonTableViewCell.swift */; };
 		E5E2695F1CC178B400BD782B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2695E1CC178B400BD782B /* AppDelegate.swift */; };
 		E5E269641CC178B400BD782B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E269621CC178B400BD782B /* Main.storyboard */; };
 		E5E269691CC178B400BD782B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E269671CC178B400BD782B /* LaunchScreen.storyboard */; };
@@ -26,8 +27,9 @@
 		E56986C71CC18AC7006B8C5B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		E56986C91CC18AF0006B8C5B /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E56986CA1CC18AF0006B8C5B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E56986CD1CC18E8E006B8C5B /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonTableViewCell.swift; path = "ios-challenge-task1/ButtonTableViewCell.swift"; sourceTree = "<group>"; };
 		E5E2695B1CC178B400BD782B /* ios-challenge-task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-challenge-task1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5E2695E1CC178B400BD782B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5E2695E1CC178B400BD782B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "ios-challenge-task1/AppDelegate.swift"; sourceTree = "<group>"; };
 		E5E269631CC178B400BD782B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5E269681CC178B400BD782B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5E2696A1CC178B400BD782B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,9 +52,11 @@
 		E5E269521CC178B400BD782B = {
 			isa = PBXGroup;
 			children = (
+				E5E2695E1CC178B400BD782B /* AppDelegate.swift */,
 				E56986C91CC18AF0006B8C5B /* Task+CoreDataProperties.swift */,
 				E56986CA1CC18AF0006B8C5B /* Task.swift */,
 				E56986C01CC186A4006B8C5B /* TaskController.swift */,
+				E56986CD1CC18E8E006B8C5B /* ButtonTableViewCell.swift */,
 				E56986C61CC18AC7006B8C5B /* Model.xcdatamodeld */,
 				E56986BA1CC184E0006B8C5B /* Stack.swift */,
 				E5E2695D1CC178B400BD782B /* ios-challenge-task1 */,
@@ -71,7 +75,6 @@
 		E5E2695D1CC178B400BD782B /* ios-challenge-task1 */ = {
 			isa = PBXGroup;
 			children = (
-				E5E2695E1CC178B400BD782B /* AppDelegate.swift */,
 				E5E269621CC178B400BD782B /* Main.storyboard */,
 				E5E269701CC17AD500BD782B /* TaskListTableViewController.swift */,
 				E5E269721CC17AE800BD782B /* DetailTaskTableViewController.swift */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56986CE1CC18E8E006B8C5B /* ButtonTableViewCell.swift in Sources */,
 				E56986CC1CC18AF0006B8C5B /* Task.swift in Sources */,
 				E5E269711CC17AD500BD782B /* TaskListTableViewController.swift in Sources */,
 				E56986BB1CC184E0006B8C5B /* Stack.swift in Sources */,
