@@ -1,5 +1,5 @@
 //
-//  Entity+CoreDataProperties.swift
+//  Task+CoreDataProperties.swift
 //  ios-challenge-task1
 //
 //  Created by Aaron Eliason on 4/15/16.
@@ -12,11 +12,11 @@
 import Foundation
 import CoreData
 
-extension Entity {
+extension Task {
 
-    @NSManaged var name: String?
-    @NSManaged var due: NSDate?
-    @NSManaged var isComplete: NSNumber?
+    @NSManaged var name: String
     @NSManaged var notes: String?
+    @NSManaged var due: NSDate?
+    @NSManaged var isComplete: NSNumber
 
 }

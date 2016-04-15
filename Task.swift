@@ -1,5 +1,5 @@
 //
-//  Entity.swift
+//  Task.swift
 //  ios-challenge-task1
 //
 //  Created by Aaron Eliason on 4/15/16.
@@ -22,5 +22,4 @@ class Task: NSManagedObject {
         self.due = due
         self.isComplete = false
     }
-
 }
